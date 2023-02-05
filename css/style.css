@@ -12,6 +12,18 @@ li:last-child {
   margin-right: 0px;
 }
 
+.row {
+  justify-content: center;
+}
+
+.bi-arrow-left-circle-fill, .bi-arrow-right-circle-fill {
+  color: orange;
+}
+
+.first-block {
+  margin: 0 auto;
+  height: 90vh;
+}
 .first-block_left__main-title {
   font-size: 4rem;
   font-family: "Roboto Condensed", Arial, sans-serif;
@@ -38,9 +50,16 @@ li:last-child {
 .first-block_left__price-numbers {
   font-size: 2.6rem;
   font-family: "Roboto Condensed", Arial, sans-serif;
-}
-.first-block_left__price-numbers u {
   font-weight: 700;
+  opacity: 0.5;
+}
+.first-block_left__price-special {
+  color: black;
+  font-size: 26px;
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-weight: 700;
+  -webkit-text-decoration-color: orange;
+          text-decoration-color: orange;
 }
 .first-block_left__price-promotion {
   font-size: 1.8rem;

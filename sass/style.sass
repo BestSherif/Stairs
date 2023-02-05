@@ -9,7 +9,15 @@ html
 li:last-child
     margin-right: 0px
 
+.row
+    justify-content: center
+
+.bi-arrow-left-circle-fill, .bi-arrow-right-circle-fill
+    color: orange
+
 .first-block
+    margin: 0 auto
+    height: 90vh
     &_left
         &__main-title
             font-size: 4rem
@@ -34,8 +42,14 @@ li:last-child
         &__price-numbers
             font-size: 2.6rem
             font-family: 'Roboto Condensed',Arial,sans-serif
-            u
-                font-weight: 700
+            font-weight: 700
+            opacity: .5
+        &__price-special
+            color: black
+            font-size: 26px
+            font-family: 'Roboto Condensed',Arial,sans-serif
+            font-weight: 700
+            text-decoration-color: orange
         &__price-promotion
             font-size: 1.8rem
             font-family: 'Roboto Condensed',Arial,sans-serif
