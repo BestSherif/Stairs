@@ -28,10 +28,13 @@ li:last-child {
 
 .first-block {
   margin: 0 auto;
-  height: 90vh;
+}
+.first-block_left {
+  padding-top: 15rem;
+  top: 10rem;
 }
 .first-block_left__main-title {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-family: "Roboto Condensed", Arial, sans-serif;
   font-weight: 700;
 }
@@ -44,7 +47,7 @@ li:last-child {
   border-color: transparent;
   border-style: solid;
 }
-.first-block_left__price-text {
+.first-block_price__text {
   font-size: 2rem;
   font-family: "Roboto Condensed", Arial, sans-serif;
   line-height: 1;
@@ -53,13 +56,13 @@ li:last-child {
   border-color: transparent;
   border-style: solid;
 }
-.first-block_left__price-numbers {
+.first-block_price__numbers {
   font-size: 2.6rem;
   font-family: "Roboto Condensed", Arial, sans-serif;
   font-weight: 700;
   opacity: 0.5;
 }
-.first-block_left__price-special {
+.first-block_price__special {
   color: black;
   font-size: 26px;
   font-family: "Roboto Condensed", Arial, sans-serif;
@@ -67,12 +70,12 @@ li:last-child {
   -webkit-text-decoration-color: orange;
           text-decoration-color: orange;
 }
-.first-block_left__price-promotion {
+.first-block_price__promotion {
   font-size: 1.8rem;
   font-family: "Roboto Condensed", Arial, sans-serif;
   font-weight: 700;
 }
-.first-block_left__btn-text {
+.first-block__btn-text {
   position: relative;
   color: #ffffff;
   font-size: 20px;
