@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- подключаем шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Подключаем bootstrap -->
     <link
       rel="stylesheet"
@@ -40,7 +48,13 @@
         <div class="col-lg-12 col-xl-6">
           <div class="card-body first-block_left">
             <h2 class="card-title text-center">
-              <p class="first-block_left__main-title">
+              <p
+                class="first-block_left__main-title d-none d-sm-block text-center"
+              >
+                МЕТАЛЛИЧЕСКИЙ КАРКАС НА МОНОКОСОУРЕ ДЛЯ Г-ОБРАЗНОЙ ЛЕСТНИЦЫ С
+                ПЛОЩАДКОЙ МК-2
+              </p>
+              <p class="first-block_left__main-titleSM d-sm-none">
                 МЕТАЛЛИЧЕСКИЙ КАРКАС НА МОНОКОСОУРЕ ДЛЯ Г-ОБРАЗНОЙ ЛЕСТНИЦЫ С
                 ПЛОЩАДКОЙ МК-2
               </p>
@@ -138,7 +152,7 @@
           </div>
         </div>
         <!-- Правый блок, карусель ниже-->
-        <div class="col-8 col-md-6 col-lg-6 col-xl-6 first-block_right">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 first-block_right">
           <div
             id="carouselExampleControls"
             class="carousel slide"
@@ -170,14 +184,14 @@
                 <img
                   src="img/MetallStair№4.jpg"
                   class="d-block w-100 displayed"
-                  alt="MetallStair№3"
+                  alt="MetallStair№4"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="img/MetallStair№5.jpg"
                   class="d-block w-100 displayed"
-                  alt="MetallStair№3"
+                  alt="MetallStair№5"
                 />
               </div>
             </div>
@@ -231,7 +245,7 @@
           <div class="col-sm-12">
             <p class="text-center first-block_price__text">
               Цена каркаса: от &nbsp
-              <spanthird-block class="text-center first-block_price__-numbers"
+              <spanthird-block class="text-center first-block_price__numbers"
                 ><s>99 000</s></spanthird-block
               >
               &nbsp;&nbsp;
@@ -247,40 +261,51 @@
           </div>
         </div>
       </div>
-      <!-- Цены ниже под экраны ниже sm  -->
-      <div class="container text-center first-block_price d-sm-none">
+      <p class="text-center first-block_price__promotion d-none d-sm-block">
+        *Скидка действует до 1 февраля 2023г.
+      </p>
+      <!-- Цены ниже под экраны sm ниже -->
+      <div class="container first-block_price-small d-sm-none">
         <div class="row">
           <div class="col-sm-12">
-            <p class="text-center first-block_price__text">
+            <p class="text-center first-block_price-small__text">
               Цена каркаса: от &nbsp
-              <spanthird-block class="text-center first-block_price__-numbers"
+              <spanthird-block
+                class="text-center first-block_price-small__numbers"
                 ><s>99 000</s></spanthird-block
               >
               &nbsp;&nbsp;
-              <u class="first-block_price__special">
-                <br />
-                87 545 руб.</u
-              >
+              <u class="first-block_price-small__special"> 87 545 руб.</u>
               <br /><br />
               Цена обшивки: от
-              <span class="text-center first-block_price__numbers"
+              <span class="text-center first-block_price-small__numbers"
                 ><s>132 400</s></span
               >
               &nbsp;&nbsp;
-              <u class="first-block_price__special">
-                <br />
-                124 900 руб.</u
+              <span class="first-block_price-small__special">
+                124 900 руб.</span
               >
             </p>
           </div>
         </div>
       </div>
       <br />
-      <p class="text-center first-block_price__promotion">
+      <p class="text-right first-block_price-small__promotion d-sm-none">
         *Скидка действует до 1 февраля 2023г.
       </p>
-      <!-- кнопки ниже -->
-      <div class="text-center">
+      <!-- кнопки ниже под экраны выше SM -->
+      <div class="text-center d-none d-sm-block">
+        <button type="button" class="btn btn-primary first-block__btn-text">
+          Расчитать стоимость
+        </button>
+        <button type="button" class="btn btn-success first-block__btn-text">
+          Вызвать замерщика
+        </button>
+        <br />
+        <br />
+      </div>
+      <!-- кнопки ниже под экраны ниже SM -->
+      <div class="text-center d-sm-none">
         <button type="button" class="btn btn-primary first-block__btn-text">
           Расчитать стоимость
         </button>
