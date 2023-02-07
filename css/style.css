@@ -30,8 +30,7 @@ li:last-child {
   margin: 0 auto;
 }
 .first-block_left {
-  padding-top: 15rem;
-  top: 10rem;
+  padding-top: 8rem;
 }
 .first-block_left__main-title {
   font-size: 2.5rem;
@@ -46,6 +45,9 @@ li:last-child {
   background-position: center center;
   border-color: transparent;
   border-style: solid;
+}
+.first-block_right {
+  margin-bottom: 2rem;
 }
 .first-block_price__text {
   font-size: 2rem;
