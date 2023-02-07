@@ -111,20 +111,19 @@ p {
   margin: 1rem 1rem 0 0;
 }
 .first-block_price-small__text {
-  font-size: 1.6rem;
+  color: #4d4d4d;
+  font-size: 1.8rem;
   font-family: "Roboto Condensed", Arial, sans-serif;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 400;
   background-position: center center;
-  border-color: transparent;
-  border-style: solid;
-  opacity: 0.8;
 }
 .first-block_price-small__numbers {
   color: #4d4d4d;
   font-size: 1.8rem;
   font-family: "Roboto Condensed", Arial, sans-serif;
   font-weight: 400;
+  opacity: 0.5;
 }
 .first-block_price-small__special {
   color: #4d4d4d;
