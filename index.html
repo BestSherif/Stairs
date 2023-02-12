@@ -43,7 +43,7 @@
   <!-- ! REM Размер font-size заменен на 10px и указан в % для простой адаптации, веди разработку в REM! -->
 
   <body>
-    <div class="card mb-3 first-block" style="max-width: 1440px">
+    <div class="card mb-3 first-block" max-width="1440px">
       <div class="row no-gutters">
         <div class="col-lg-8 col-xl-6">
           <div class="card-body first-block_left">
@@ -156,8 +156,7 @@
               <div class="col-sm-12">
                 <p class="first-block_price__text">
                   Цена каркаса: от &nbsp
-                  <span
-                    class="text-center first-block_price__numbers"
+                  <span class="text-center first-block_price__numbers"
                     ><s>99 000</s></span
                   >
                   &nbsp;&nbsp;
@@ -176,58 +175,13 @@
           <p class="text-center first-block_price__promotion d-none d-sm-block">
             *Скидка действует до 1 февраля 2023г.
           </p>
-          <!-- Цены ниже под маленький экран -->
-          <div class="container first-block_price-small d-sm-none">
-            <div class="row">
-              <div class="col-sm-12">
-                <p class="text-center first-block_price-small__text">
-                  Цена каркаса: от &nbsp
-                  <spanthird-block
-                    class="text-center first-block_price-small__numbers"
-                    ><s>99 000</s></spanthird-block
-                  >
-                  &nbsp;&nbsp;
-                  <u class="first-block_price-small__special"> 87 545 руб.</u>
-                  <br /><br />
-                  Цена обшивки: от
-                  <span class="text-center first-block_price-small__numbers"
-                    ><s>132 400</s></span
-                  >
-                  &nbsp;&nbsp;
-                  <span class="first-block_price-small__special">
-                    <strong>124 900 руб.</strong>
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <br />
-          <p class="text-right first-block_price-small__promotion d-sm-none">
-            *Скидка действует до 1 февраля 2023г.
-          </p>
+
           <!-- кнопки ниже под экраны выше SM -->
           <div class="text-center d-none d-sm-block">
             <button type="button" class="btn btn-primary first-block__btn-text">
               Расчитать стоимость
             </button>
             <button type="button" class="btn btn-success first-block__btn-text">
-              Вызвать замерщика
-            </button>
-            <br />
-            <br />
-          </div>
-          <!-- кнопки ниже под экраны ниже SM -->
-          <div class="text-center d-sm-none">
-            <button
-              type="button"
-              class="btn btn-primary first-block__btn-textSM"
-            >
-              Расчитать стоимость
-            </button>
-            <button
-              type="button"
-              class="btn btn-success first-block__btn-textSM"
-            >
               Вызвать замерщика
             </button>
             <br />
@@ -322,22 +276,47 @@
         </div>
         <!-- Правый блок выше -->
       </div>
-      <!-- Тест -->
+      <!-- Цены ниже под маленький экран -->
+      <div class="container first-block_price-small d-sm-none">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="first-block_price-small__text">
+              Цена каркаса: от &nbsp
+              <spanthird-block
+                class="text-center first-block_price-small__numbers"
+                ><s>99 000</s></spanthird-block
+              >
+              &nbsp;&nbsp;
+              <span class="first-block_price-small__special"> 87 545 руб.</span>
+              <br /><br />
+              Цена обшивки: от
+              <span class="text-center first-block_price-small__numbers"
+                ><s>132 400</s></span
+              >
+              &nbsp;&nbsp;
+              <span class="first-block_price-small__special">
+                <strong>124 900 руб.</strong>
+              </span>
+            </p>
+          </div>
+        </div>
+        <br />
+        <p class="text-right first-block_price-small__promotion d-sm-none">
+          *Скидка действует до 1 февраля 2023г.
+        </p>
+      </div>
+      <!-- кнопки ниже под экраны ниже SM -->
+      <div class="text-center d-sm-none">
+        <button type="button" class="btn btn-primary first-block__btn-textSM">
+          Расчитать стоимость
+        </button>
+        <button type="button" class="btn btn-success first-block__btn-textSM">
+          Вызвать замерщика
+        </button>
+        <br />
+        <br />
+      </div>
     </div>
-    
-    <!-- тест -->
-    <!-- 
-    <header></header>
-    <nav></nav>
-    <main>
-      <section></section>
-      <section></section>
-      <section></section>
-    </main>
-    <sidebar> </sidebar>
-    <footer>
-      <nav></nav>
-    </footer> -->
 
     <!-- Подключаем popper + Java+bootastrap + Jquery и другие указанные на сайте bootstrap-->
     <script
