@@ -23,12 +23,30 @@ p
 .bigSize
     margin: 0 auto
 
-
 .first-block
     margin: 0 auto
     &_right
+        position: relative
         max-width: 75rem
         margin-bottom: 2rem
+        &__die
+            z-index: 1
+            top: 4%
+            right: 1%
+            position: absolute
+            font-family: 'Roboto Condensed',Arial,sans-serif
+            color: white
+            font-size: 16px
+            line-height: 18px
+            font-weight: 700
+            background-color: green
+            width: 200px
+            height: 30px
+            span
+                position: relative
+                top: 15%
+                left: 10%
+
     &_left
         max-width: 75rem
         &__benefit-img
